@@ -17,6 +17,7 @@ import UseReducer from "./States/UseReducer";
 import Props from "./PROPS/Props";
 import CompA from "./States/ContextApi/CompA";
 import { createContext } from "react";
+import AddItem from "./Curd/AddItem";
 
 const FirstName = createContext();
 function App() {
@@ -30,7 +31,7 @@ function App() {
       {/* <Button/> */}
       {/* <Form/> */}
       {/* <Popup/> */}
-      <UseState />
+      {/* <UseState /> */}
       {/* <UseEffect/> */}
       {/* TODO LIST */}
       {/* <TodoAdd/> */}
@@ -41,6 +42,7 @@ function App() {
       {/* <FirstName.Provider value={"Nigar"}>
 <CompA/>
 </FirstName.Provider> */}
+      <AddItem />
     </>
   );
 }
